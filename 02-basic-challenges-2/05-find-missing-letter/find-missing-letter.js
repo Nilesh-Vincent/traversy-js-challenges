@@ -1,3 +1,10 @@
-function findMissingLetter() {}
+function findMissingLetter(array) {
+  const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const startIndex = alphabet.indexOf(array[0]);
+
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+  }
+}
 
 module.exports = findMissingLetter;
